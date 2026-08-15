@@ -1,0 +1,13 @@
+{
+  "train": {
+    "roc_auc": 0.6546975248980451,
+    "pr_auc": 0.23788545861322138
+  },
+  "test": {
+    "roc_auc": 0.49364748688182464,
+    "pr_auc": 0.12397017261129856
+  },
+  "depth": 6,
+  "split": "time",
+  "note": "Permuted labels, time split, val-selected depth=6."
+}

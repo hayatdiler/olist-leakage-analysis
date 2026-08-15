@@ -1,0 +1,25 @@
+# Kaggle verisi — repoya girmesin
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dağıtım / build
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

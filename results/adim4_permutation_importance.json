@@ -1,0 +1,374 @@
+{
+  "leaky_time": {
+    "impurity_top20": [
+      {
+        "feature": "delay_days",
+        "importance": 0.3425061939353358
+      },
+      {
+        "feature": "actual_delivery_days",
+        "importance": 0.2848655985528776
+      },
+      {
+        "feature": "order_item_count",
+        "importance": 0.08729415408161194
+      },
+      {
+        "feature": "total_freight",
+        "importance": 0.04897130592201087
+      },
+      {
+        "feature": "carrier_delivery_days",
+        "importance": 0.030536432009099147
+      },
+      {
+        "feature": "seller_hist_avg_score_strict",
+        "importance": 0.03050018384296441
+      },
+      {
+        "feature": "haversine_km",
+        "importance": 0.020640445481136863
+      },
+      {
+        "feature": "estimated_delivery_days",
+        "importance": 0.018590093168610586
+      },
+      {
+        "feature": "total_price",
+        "importance": 0.01671561080801667
+      },
+      {
+        "feature": "avg_volume_cm3",
+        "importance": 0.015402810187374794
+      },
+      {
+        "feature": "purchase_month",
+        "importance": 0.01528059517808849
+      },
+      {
+        "feature": "freight_ratio",
+        "importance": 0.01446652720581829
+      },
+      {
+        "feature": "avg_weight_g",
+        "importance": 0.013527941752930282
+      },
+      {
+        "feature": "approval_time_hours",
+        "importance": 0.012501614491285937
+      },
+      {
+        "feature": "purchase_hour",
+        "importance": 0.006938311015041645
+      },
+      {
+        "feature": "same_state",
+        "importance": 0.006696903578980051
+      },
+      {
+        "feature": "avg_photos_qty",
+        "importance": 0.005728361264865189
+      },
+      {
+        "feature": "payment_installments",
+        "importance": 0.0054074138030315065
+      },
+      {
+        "feature": "purchase_dayofweek",
+        "importance": 0.004188888048010036
+      },
+      {
+        "feature": "product_category_bed_bath_table",
+        "importance": 0.002367297057811798
+      }
+    ],
+    "permutation_top20": [
+      {
+        "feature": "delay_days",
+        "importance": 0.11392517053178008,
+        "std": 0.00250696002827479
+      },
+      {
+        "feature": "order_item_count",
+        "importance": 0.049232812022473295,
+        "std": 0.0018174804423898073
+      },
+      {
+        "feature": "actual_delivery_days",
+        "importance": 0.04448208909861675,
+        "std": 0.003078894601007602
+      },
+      {
+        "feature": "seller_hist_avg_score_strict",
+        "importance": 0.009415800182496558,
+        "std": 0.0012294683531264155
+      },
+      {
+        "feature": "carrier_delivery_days",
+        "importance": 0.004734136013717649,
+        "std": 0.001014804230659362
+      },
+      {
+        "feature": "haversine_km",
+        "importance": 0.0041952627060778125,
+        "std": 0.0016445872787503395
+      },
+      {
+        "feature": "same_state",
+        "importance": 0.003252338455428322,
+        "std": 0.0008849482043778214
+      },
+      {
+        "feature": "estimated_delivery_days",
+        "importance": 0.0031887178951792382,
+        "std": 0.0030590604552870274
+      },
+      {
+        "feature": "freight_ratio",
+        "importance": 0.0021151816872483353,
+        "std": 0.0011118842123813899
+      },
+      {
+        "feature": "avg_volume_cm3",
+        "importance": 0.0016994674765026363,
+        "std": 0.0008909063646254939
+      },
+      {
+        "feature": "approval_time_hours",
+        "importance": 0.0012774459234818013,
+        "std": 0.0010299525411761189
+      },
+      {
+        "feature": "product_category_sports_leisure",
+        "importance": 0.0008776519709750186,
+        "std": 0.0003094797553898031
+      },
+      {
+        "feature": "avg_weight_g",
+        "importance": 0.0008575692133069191,
+        "std": 0.0007066257887998163
+      },
+      {
+        "feature": "payment_type_boleto",
+        "importance": 0.0008019967138750029,
+        "std": 0.0004561315222403119
+      },
+      {
+        "feature": "total_price",
+        "importance": 0.0007305229682232961,
+        "std": 0.001405714104704555
+      },
+      {
+        "feature": "product_category_telephony",
+        "importance": 0.000497114099073831,
+        "std": 0.0001652319773264065
+      },
+      {
+        "feature": "payment_type_credit_card",
+        "importance": 0.00037928112360010035,
+        "std": 0.00048446945385513025
+      },
+      {
+        "feature": "product_category_bed_bath_table",
+        "importance": 0.00034764365514283746,
+        "std": 0.00046673878347564907
+      },
+      {
+        "feature": "payment_type_debit_card",
+        "importance": 0.00033871196771634304,
+        "std": 5.790151066235027e-05
+      },
+      {
+        "feature": "product_category_computers_accessories",
+        "importance": 0.0003070403868359217,
+        "std": 0.00026044016094021614
+      }
+    ]
+  },
+  "clean_time": {
+    "impurity_top20": [
+      {
+        "feature": "order_item_count",
+        "importance": 0.2463969107677225
+      },
+      {
+        "feature": "total_freight",
+        "importance": 0.1994939316407638
+      },
+      {
+        "feature": "purchase_month",
+        "importance": 0.1240272122915228
+      },
+      {
+        "feature": "seller_hist_avg_score_strict",
+        "importance": 0.09044586121535617
+      },
+      {
+        "feature": "haversine_km",
+        "importance": 0.054781356829133036
+      },
+      {
+        "feature": "same_state",
+        "importance": 0.04665886949228277
+      },
+      {
+        "feature": "total_price",
+        "importance": 0.0443726767157786
+      },
+      {
+        "feature": "estimated_delivery_days",
+        "importance": 0.03617190006637265
+      },
+      {
+        "feature": "freight_ratio",
+        "importance": 0.02885752076685655
+      },
+      {
+        "feature": "avg_volume_cm3",
+        "importance": 0.02856457232841392
+      },
+      {
+        "feature": "avg_weight_g",
+        "importance": 0.02702892403151516
+      },
+      {
+        "feature": "payment_installments",
+        "importance": 0.011297289589777113
+      },
+      {
+        "feature": "avg_photos_qty",
+        "importance": 0.010424522509216036
+      },
+      {
+        "feature": "product_category_bed_bath_table",
+        "importance": 0.009425473022952989
+      },
+      {
+        "feature": "purchase_hour",
+        "importance": 0.008469643810282338
+      },
+      {
+        "feature": "purchase_dayofweek",
+        "importance": 0.0050256491710179655
+      },
+      {
+        "feature": "product_category_sports_leisure",
+        "importance": 0.0030449932656165263
+      },
+      {
+        "feature": "product_category_computers_accessories",
+        "importance": 0.0022393976260096284
+      },
+      {
+        "feature": "product_category_other",
+        "importance": 0.0022114929969123532
+      },
+      {
+        "feature": "seller_hist_missing",
+        "importance": 0.0019915199688833336
+      }
+    ],
+    "permutation_top20": [
+      {
+        "feature": "order_item_count",
+        "importance": 0.046914538664470005,
+        "std": 0.0015003616798285868
+      },
+      {
+        "feature": "seller_hist_avg_score_strict",
+        "importance": 0.0071461962270921164,
+        "std": 0.0010638125225368212
+      },
+      {
+        "feature": "total_price",
+        "importance": 0.0031132222427515564,
+        "std": 0.000991157728193961
+      },
+      {
+        "feature": "total_freight",
+        "importance": 0.0023396340734474276,
+        "std": 0.002754684968709353
+      },
+      {
+        "feature": "product_category_bed_bath_table",
+        "importance": 0.001927810720947612,
+        "std": 0.0003935394183796698
+      },
+      {
+        "feature": "estimated_delivery_days",
+        "importance": 0.001456255443617696,
+        "std": 0.0013232347882594841
+      },
+      {
+        "feature": "haversine_km",
+        "importance": 0.0007937983871204007,
+        "std": 0.0014961589167291813
+      },
+      {
+        "feature": "payment_installments",
+        "importance": 0.000379551145934745,
+        "std": 0.00011206902188185681
+      },
+      {
+        "feature": "product_category_sports_leisure",
+        "importance": 0.0003532969596066776,
+        "std": 0.0002781360124337922
+      },
+      {
+        "feature": "freight_ratio",
+        "importance": 0.00031678637749452956,
+        "std": 0.0007254485659759143
+      },
+      {
+        "feature": "avg_weight_g",
+        "importance": 0.000282063669307131,
+        "std": 0.00044401237773294847
+      },
+      {
+        "feature": "avg_photos_qty",
+        "importance": 0.00021106721248113913,
+        "std": 0.0009153464316773382
+      },
+      {
+        "feature": "product_category_watches_gifts",
+        "importance": 0.0001357175702588115,
+        "std": 6.838825588394406e-05
+      },
+      {
+        "feature": "product_category_health_beauty",
+        "importance": 0.00011425799944900228,
+        "std": 0.00023593815726673204
+      },
+      {
+        "feature": "payment_type_credit_card",
+        "importance": 8.957033991728591e-05,
+        "std": 6.565033959964049e-05
+      },
+      {
+        "feature": "product_category_computers_accessories",
+        "importance": 8.159701172836265e-05,
+        "std": 0.00012062942049426153
+      },
+      {
+        "feature": "product_category_baby",
+        "importance": 5.565559093529404e-05,
+        "std": 4.920470744608164e-05
+      },
+      {
+        "feature": "product_category_electronics",
+        "importance": 5.388105137184851e-05,
+        "std": 4.900905112457748e-05
+      },
+      {
+        "feature": "product_category_garden_tools",
+        "importance": 5.215999076570166e-05,
+        "std": 0.0001565326862958611
+      },
+      {
+        "feature": "payment_type_voucher",
+        "importance": 2.6050643543934494e-05,
+        "std": 2.0820852947545334e-05
+      }
+    ]
+  }
+}

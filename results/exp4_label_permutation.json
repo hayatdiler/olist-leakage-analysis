@@ -1,0 +1,11 @@
+{
+  "train": {
+    "roc_auc": 0.9999833862724733,
+    "pr_auc": 0.9993994149721969
+  },
+  "test": {
+    "roc_auc": 0.5003703179275354,
+    "pr_auc": 0.1327869264651223
+  },
+  "note": "High train AUC on permuted labels = memorization capacity. Test AUC near random floor = zero real signal extracted."
+}

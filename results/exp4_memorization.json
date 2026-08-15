@@ -1,0 +1,47 @@
+{
+  "unbounded": {
+    "real": {
+      "train": {
+        "roc_auc": 0.9999854362745779,
+        "pr_auc": 0.9996950950545214
+      },
+      "test": {
+        "roc_auc": 0.6083622896937041,
+        "pr_auc": 0.1581190724561182
+      }
+    },
+    "permuted": {
+      "train": {
+        "roc_auc": 0.9999957763756379,
+        "pr_auc": 0.9999696926631703
+      },
+      "test": {
+        "roc_auc": 0.492396664605527,
+        "pr_auc": 0.12275868494110428
+      }
+    }
+  },
+  "depth6": {
+    "real": {
+      "train": {
+        "roc_auc": 0.6668159030441236,
+        "pr_auc": 0.26218069430263924
+      },
+      "test": {
+        "roc_auc": 0.6121256040272784,
+        "pr_auc": 0.16718015763006944
+      }
+    },
+    "permuted": {
+      "train": {
+        "roc_auc": 0.6546975248980451,
+        "pr_auc": 0.23788545861322138
+      },
+      "test": {
+        "roc_auc": 0.49364748688182464,
+        "pr_auc": 0.12397017261129856
+      }
+    }
+  },
+  "note": "exp4 intentionally includes an unbounded RF (max_depth=None) that differs from all other experiments. Purpose: measure memorization CAPACITY, not predictive performance. The depth-6 row shows that our production model has limited capacity to memorize noise."
+}
